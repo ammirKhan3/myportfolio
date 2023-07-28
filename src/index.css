@@ -1,0 +1,62 @@
+@import url("https://fonts.cdnfonts.com/css/do-futuristic");
+body {
+  margin: 0;
+  font-family: "DO Futuristic", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-image: linear-gradient(to left, #87cefa, #190a52);
+}
+body {
+  background-color: #faf887;
+}
+.blue {
+  color: #00bfff;
+  font-weight: bold;
+}
+.light-blue-border {
+  border: 2px solid #00bfff;
+}
+.glitch {
+  position: relative;
+  display: inline-block;
+  animation: glitch 1s linear infinite;
+}
+
+.glitch::before,
+.glitch::after {
+  content: attr(data-text);
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.glitch::before {
+  color: #00bfff;
+  text-shadow: -2px 0 #00bfff;
+}
+
+.glitch::after {
+  color: #00bfff;
+  text-shadow: 2px 0#00bfff;
+}
+
+@keyframes glitch {
+  0% {
+    transform: translate(0);
+  }
+  20% {
+    transform: translate(-5px, 5px);
+  }
+  40% {
+    transform: translate(-5px, -5px);
+  }
+  60% {
+    transform: translate(5px, 5px);
+  }
+  80% {
+    transform: translate(5px, -5px);
+  }
+  100% {
+    transform: translate(0);
+  }
+}
