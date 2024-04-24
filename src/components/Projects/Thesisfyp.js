@@ -134,7 +134,7 @@ const imageStyle = {
   maxWidth: "800px", // Set maximum width
 };
 
-function Projects() {
+function Thesisfyp() {
   return (
     <div
       style={{
@@ -155,4 +155,4 @@ function Projects() {
   );
 }
 
-export default Projects;
+export default Thesisfyp;
