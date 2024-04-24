@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import myImg from "../../Assets/avatar.svg";
+import myImg from "../../Assets/avatar.jpeg";
 import Tilt from "react-parallax-tilt";
 import {
   AiFillGithub,
@@ -19,34 +19,37 @@ function Home2() {
               LET ME <span className="blue"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              I fell in love with programming and I have at least learnt
-              something, I think… 🤷‍♂️
-              <br />
-              <br />I am fluent in classics like
-              <i>
-                <b className="blue"> Javascript and Python. </b>
-              </i>
+              I'm Aamir Khan, a dedicated Civil Engineer with a solid
+              educational background and one year of practical experience in
+              site engineering. My journey in civil engineering has equipped me
+              with skills ranging from project management and structural design
+              to construction oversight and multidisciplinary collaboration.
               <br />
               <br />
-              My field of Interest's are building new &nbsp;
-              <i>
-                <b className="blue">Web Technologies and Products </b> and also
-                in areas related to <b className="blue">Blockchain.</b>
-              </i>
-              <br />
-              <br />
-              Whenever possible, I also apply my passion for developing products
-              with <b className="blue">Node.js</b> and
+              I'm eager to contribute my skills and expertise to future projects
+              in civil engineering.
               <i>
                 <b className="blue">
                   {" "}
-                  Modern Javascript Library and Frameworks
+                  You can reach me at +923096083535 or aamirsuranai@gmail.com,
+                  and connect on LinkedIn at{" "}
+                  <a
+                    href="https://www.linkedin.com/in/aamir-khan7068811a3"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    linkedin.com/in/aamir-khan7068811a3
+                  </a>
                 </b>
               </i>
-              &nbsp; like
-              <i>
-                <b className="blue"> React.js and Next.js</b>
-              </i>
+              <br />
+              <br />
+              My field of Interest's is creating sustainable infrastructure
+              solutions as a passionate Civil Engineer, leveraging my expertise
+              in project management, structural design, and construction
+              oversight to deliver high-quality projects with precision and
+              efficiency &nbsp;
+              <br />
             </p>
           </Col>
           <Col md={4} className="myAvtar">
