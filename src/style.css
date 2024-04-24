@@ -83,10 +83,12 @@ button:focus {
 }
 
 .navbar {
-  position: fixed !important;
-  transition: all 0.3s ease-out 0s !important;
-  padding: 0.3rem 2rem !important;
-  font-size: 1.2rem !important;
+  padding: 0.8rem 1rem !important;
+  font-size: 1rem !important;
+  background-color: #000000; /* Add background color here */
+  display: flex; /* Use flexbox */
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
 }
 
 .navbar-toggler {
