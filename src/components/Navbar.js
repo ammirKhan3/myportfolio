@@ -70,7 +70,7 @@ function NavBar() {
                 to="/Project1"
                 onClick={() => updateExpanded(false)}
               >
-                <AiOutlineUser style={{ marginBottom: "2px" }} /> Project1
+                <AiOutlineUser style={{ marginBottom: "2px" }} /> FypThesis
               </Nav.Link>
             </Nav.Item>
 
@@ -83,7 +83,7 @@ function NavBar() {
                 <AiOutlineFundProjectionScreen
                   style={{ marginBottom: "2px" }}
                 />{" "}
-                Projects
+                Project-1
               </Nav.Link>
             </Nav.Item>
             <Nav.Item>
@@ -92,7 +92,7 @@ function NavBar() {
                 to="/Project3"
                 onClick={() => updateExpanded(false)}
               >
-                <AiOutlineUser style={{ marginBottom: "2px" }} /> Project3
+                <AiOutlineUser style={{ marginBottom: "2px" }} /> Project-2
               </Nav.Link>
             </Nav.Item>
 
@@ -104,27 +104,6 @@ function NavBar() {
               >
                 <CgFileDocument style={{ marginBottom: "2px" }} /> Resume
               </Nav.Link>
-            </Nav.Item>
-
-            <Nav.Item>
-              <Nav.Link
-                href="https://github.com/iamhamzamalik"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <ImBlog style={{ marginBottom: "2px" }} /> Blogs
-              </Nav.Link>
-            </Nav.Item>
-
-            <Nav.Item className="fork-btn">
-              <Button
-                href="https://github.com/iamhamzamalik"
-                target="_blank"
-                className="fork-btn-inner"
-              >
-                <CgGitFork style={{ fontSize: "1.2em" }} />{" "}
-                <AiFillStar style={{ fontSize: "1.1em" }} />
-              </Button>
             </Nav.Item>
           </Nav>
         </Navbar.Collapse>

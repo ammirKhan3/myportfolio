@@ -1,9 +1,6 @@
 import React from "react";
 
 // Importing all images dynamically
-import img1 from "./report-01.png";
-import img2 from "./report-02.png";
-import img3 from "./report-03.png";
 import img4 from "./report-04.png";
 import img5 from "./report-05.png";
 import img6 from "./report-06.png";
@@ -59,9 +56,6 @@ import img55 from "./report-55.png";
 import img56 from "./report-56.png";
 
 const images = [
-  img1,
-  img2,
-  img3,
   img4,
   img5,
   img6,

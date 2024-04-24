@@ -57,7 +57,7 @@ button:focus {
 
 /* Track */
 ::-webkit-scrollbar-track {
-  background: #2d1950;
+  background: #fdfdfd;
 }
 
 /* Handle */
@@ -91,8 +91,8 @@ button:focus {
 
 .navbar-toggler {
   position: relative !important;
-  background-color: transparent !important;
-  border-color: transparent !important;
+  background-color: black !important;
+  border-color: black !important;
 }
 
 .navbar-toggler span {
