@@ -13,8 +13,13 @@ function Home2() {
   return (
     <Container fluid className="home-about-section" id="about">
       <Container>
-        <Row>
-          <Col xs={12} md={8} className="home-about-description">
+        <Row className="justify-content-center">
+          <Col xs={12} md={6} className="order-md-2 myAvtar">
+            <Tilt>
+              <img src={myImg} className="img-fluid" alt="avatar" />
+            </Tilt>
+          </Col>
+          <Col xs={12} md={6} className="order-md-1 home-about-description">
             <h1 style={{ fontSize: "2.6em" }}>
               LET ME <span className="blue"> INTRODUCE </span> MYSELF
             </h1>
@@ -51,11 +56,6 @@ function Home2() {
               efficiency &nbsp;
               <br />
             </p>
-          </Col>
-          <Col xs={12} md={4} className="myAvtar">
-            <Tilt>
-              <img src={myImg} className="img-fluid" alt="avatar" />
-            </Tilt>
           </Col>
         </Row>
         <Row>
