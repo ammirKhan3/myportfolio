@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import homeLogo from "../../Assets/home-main.png";
+import homeLogo from "../../Assets/avatar.png";
 import Particle from "../Particle";
 import Home2 from "./Home2";
 import Type from "./Type";
@@ -12,9 +12,9 @@ function Home() {
         <Particle />
         <Container className="home-content">
           <Row>
-            <Col xs={12} md={7} className="home-header">
+            <Col md={7} className="home-header">
               <h1 style={{ paddingBottom: 15 }} className="heading">
-                Hello There!{" "}
+                Hi There!{" "}
                 <span className="wave" role="img" aria-labelledby="wave">
                   👋🏻
                 </span>
@@ -22,20 +22,15 @@ function Home() {
 
               <h1 className="heading-name">
                 I'M
-                <strong className="main-name"> Aamir Khan</strong>
+                <strong className="main-name"> SOUMYAJIT BEHERA</strong>
               </h1>
 
-              <div
-                style={{
-                  padding: 50,
-                  textAlign: "left",
-                }}
-              >
+              <div style={{ padding: 50, textAlign: "left" }}>
                 <Type />
               </div>
             </Col>
 
-            <Col xs={12} md={5} style={{ paddingBottom: 20 }}>
+            <Col md={5} style={{ paddingBottom: 20 }}>
               <img
                 src={homeLogo}
                 alt="home pic"

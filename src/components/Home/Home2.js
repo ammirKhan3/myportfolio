@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import myImg from "../../Assets/avatar.jpeg";
+import myImg from "../../Assets/1.png";
 import Tilt from "react-parallax-tilt";
 import Particle from "../Particle";
 import {
@@ -13,71 +13,59 @@ import { FaLinkedinIn } from "react-icons/fa";
 function Home2() {
   return (
     <Container fluid className="home-section" id="home">
-      <Particle />
       <Container>
-        <Row className="justify-content-center">
-          <Col xs={12} md={6} className="order-md-2 myAvtar">
+        <Row>
+          <Col md={8} className="home-about-description">
+            <h1 style={{ fontSize: "2.6em" }}>
+              LET ME <span className="purple"> INTRODUCE </span> MYSELF
+            </h1>
+            <p className="home-about-body">
+              I fell in love with programming and I have at least learnt
+              something, I think… 🤷‍♂️
+              <br />
+              <br />I am fluent in classics like
+              <i>
+                <b className="purple"> C++, Javascript and Go. </b>
+              </i>
+              <br />
+              <br />
+              My field of Interest's are building new &nbsp;
+              <i>
+                <b className="purple">Web Technologies and Products </b> and
+                also in areas related to <b className="purple">Blockchain.</b>
+              </i>
+              <br />
+              <br />
+              Whenever possible, I also apply my passion for developing products
+              with <b className="purple">Node.js</b> and
+              <i>
+                <b className="purple">
+                  {" "}
+                  Modern Javascript Library and Frameworks
+                </b>
+              </i>
+              &nbsp; like
+              <i>
+                <b className="purple"> React.js and Next.js</b>
+              </i>
+            </p>
+          </Col>
+          <Col md={4} className="myAvtar">
             <Tilt>
               <img src={myImg} className="img-fluid" alt="avatar" />
             </Tilt>
           </Col>
-          <Col xs={12} md={6} className="order-md-1 home-about-description">
-            <h1 style={{ fontSize: "2.6em" }}>
-              LET ME <span className="blue"> INTRODUCE </span> MYSELF
-            </h1>
-            <p className="home-about-body">
-              I'm Aamir Khan, a dedicated Civil Engineer with a solid
-              educational background and one year of practical experience in
-              site engineering. My journey in civil engineering has equipped me
-              with skills ranging from project management and structural design
-              to construction oversight and multidisciplinary collaboration. My
-              field of Interest's is creating sustainable infrastructure
-              solutions as a passionate Civil Engineer, leveraging my expertise
-              in project management, structural design, and construction
-              oversight to deliver high-quality projects with precision and
-              efficiency With a keen eye for innovation and a dedication to
-              environmental stewardship, I am committed to integrating
-              cutting-edge technologies and sustainable practices into every
-              aspect of my work. Whether it's optimizing energy efficiency,
-              minimizing waste, or enhancing resilience to climate change, I
-              strive to push the boundaries of conventional engineering to
-              create a lasting impact on communities and the planet. As a
-              lifelong learner, I continuously seek out new challenges and
-              opportunities to expand my skills and contribute to the
-              advancement of sustainable infrastructure solutions worldwide.
-              &nbsp;
-              <br />
-              <br />
-              I'm eager to contribute my skills and expertise to future projects
-              in civil engineering.
-              <br />
-              <i>
-                <b className="blue">
-                  {" "}
-                  You can reach me at +923096083535 or aamirsuranai@gmail.com,
-                  and connect on LinkedIn at{" "}
-                  <a
-                    href="https://www.linkedin.com/in/aamir-khan7068811a3"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    linkedin.com/in/aamir-khan7068811a3
-                  </a>
-                </b>
-              </i>
-            </p>
-          </Col>
         </Row>
         <Row>
-          <Col xs={12} className="home-about-social">
-            <h1>My Software skills</h1>
+          <Col md={12} className="home-about-social">
+            <h1>FIND ME ON</h1>
             <p>
-              Feel free to <span className="blue">connect </span>with me
+              Feel free to <span className="purple">connect </span>with me
             </p>
             <ul className="home-about-social-links">
               <li className="social-icons">
                 <a
-                  href="https://github.com/iamhamzamalik"
+                  href="https://github.com/soumyajit4419"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -87,7 +75,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://twitter.com/"
+                  href="https://twitter.com/Soumyajit4419"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -97,7 +85,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://www.linkedin.com/in/amir-hamza-38806817a/"
+                  href="https://www.linkedin.com/in/soumyajit4419/"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -107,7 +95,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://www.instagram.com/iam_hamzamalik/"
+                  href="https://www.instagram.com/soumyajit4419"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour home-social-icons"
