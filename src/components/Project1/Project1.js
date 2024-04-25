@@ -1,4 +1,5 @@
 import React from "react";
+import ImageCarousel from "./Carousel";
 import img1 from "./Thesis fyp-01.png";
 import img2 from "./Thesis fyp-02.png";
 import img3 from "./Thesis fyp-03.png";
@@ -176,6 +177,7 @@ function Project1() {
       <div style={imageContainerStyle}>
         <img src={img37} alt="Image 37" style={imageStyle} />
       </div>
+      <ImageCarousel />
     </div>
   );
 }

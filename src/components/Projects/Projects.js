@@ -1,8 +1,5 @@
 import React from "react";
-
-// Importing all images dynamically
-import img4 from "./report-04.png";
-import img5 from "./report-05.png";
+import ImageCarousel from "./Carousel";
 import img6 from "./report-06.png";
 import img7 from "./report-07.png";
 import img8 from "./report-08.png";
@@ -56,8 +53,6 @@ import img55 from "./report-55.png";
 import img56 from "./report-56.png";
 
 const images = [
-  img4,
-  img5,
   img6,
   img7,
   img8,
@@ -145,6 +140,7 @@ function Projects() {
           <img src={image} alt={`Image ${index + 1}`} style={imageStyle} />
         </div>
       ))}
+      <ImageCarousel />
     </div>
   );
 }

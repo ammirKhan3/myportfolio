@@ -1,5 +1,5 @@
 import React from "react";
-
+import ProjectLayout from "./ProjectLayout";
 // Importing all images dynamically
 import img4 from "./Chaklala Heights Rawalpindi Feb-2022 Final-01.png";
 import img5 from "./Chaklala Heights Rawalpindi Feb-2022 Final-02.png";
@@ -58,17 +58,19 @@ const imageStyle = {
 
 function Projects() {
   return (
-    <div style={imageContainerStyle}>
-      {/* Mapping through images array and rendering each image */}
-      {images.map((image, index) => (
-        <img
-          key={index}
-          src={image}
-          alt={`Image ${index + 1}`}
-          style={imageStyle}
-        />
-      ))}
-    </div>
+    <ProjectLayout>
+      <div style={imageContainerStyle}>
+        {/* Mapping through images array and rendering each image */}
+        {images.map((image, index) => (
+          <img
+            key={index}
+            src={image}
+            alt={`Image ${index + 1}`}
+            style={imageStyle}
+          />
+        ))}
+      </div>
+    </ProjectLayout>
   );
 }
 

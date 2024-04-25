@@ -23,7 +23,7 @@ function Footer() {
           <ul className="footer-icons">
             <li className="social-icons">
               <a
-                href="https://github.com/iamhamzamalik"
+                href="https://github.com/"
                 style={{ color: "white" }}
                 target="_blank"
                 rel="noopener noreferrer"
@@ -43,7 +43,7 @@ function Footer() {
             </li>
             <li className="social-icons">
               <a
-                href="https://www.linkedin.com/in/amir-hamza-38806817a/"
+                href="https://www.linkedin.com//"
                 style={{ color: "white" }}
                 target="_blank"
                 rel="noopener noreferrer"
@@ -53,7 +53,7 @@ function Footer() {
             </li>
             <li className="social-icons">
               <a
-                href="https://www.instagram.com/iam_hamzamalik/"
+                href="https://www.instagram.com//"
                 style={{ color: "white" }}
                 target="_blank"
                 rel="noopener noreferrer"
