@@ -33,7 +33,7 @@ function Home2() {
                   {" "}
                   Fluent in civil engineering skills like{" "}
                 </b>
-                <b className="purple">AutoCAD, MATLAB, and STAAD.Pro.</b>
+                <b className="purple">AutoCAD and STAAD.Pro.</b>
               </i>
               <br />
               <br />
