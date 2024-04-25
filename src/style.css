@@ -743,3 +743,8 @@ button:focus {
 .fork-btn-inner::after {
   display: none !important;
 }
+.logo {
+  width: 360px;
+  height: 200px;
+  margin-right: 20px; /* Adjust the space between logos */
+}

@@ -9,6 +9,9 @@ import {
   AiFillInstagram,
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
+import Logo1 from "./Autocad.png";
+import Logo2 from "./Enscape-01.png";
+import Logo3 from "./adobe.png";
 
 function Home2() {
   return (
@@ -27,7 +30,7 @@ function Home2() {
               <i>
                 <b className="blue">
                   {" "}
-                  Fluent in traditional civil engineering languages like{" "}
+                  Fluent in civil engineering skills like{" "}
                 </b>
                 <b className="purple">AutoCAD, MATLAB, and STAAD.Pro.</b>
               </i>
@@ -43,11 +46,9 @@ function Home2() {
               </i>
               <br />
               <br />
-              When possible, also proficient in utilizing{" "}
-              <b className="blue">
-                software tools such as SAP2000 and ETABS
-              </b>{" "}
-              for structural analysis and design, and skilled in{" "}
+              When possible, also proficient in utilizing, software tools such
+              as <b className="purple">SAP2000 and ETABS</b> for structural
+              analysis and design, and skilled in{" "}
               <b className="blue">implementing modern engineering principles</b>{" "}
               in projects.
             </p>
@@ -60,52 +61,11 @@ function Home2() {
         </Row>
         <Row>
           <Col md={12} className="home-about-social">
-            <h1>FIND ME ON</h1>
-            <p>
-              Feel free to <span className="purple">connect </span>with me
-            </p>
-            <ul className="home-about-social-links">
-              <li className="social-icons">
-                <a
-                  href="https://github.com/"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="icon-colour  home-social-icons"
-                >
-                  <AiFillGithub />
-                </a>
-              </li>
-              <li className="social-icons">
-                <a
-                  href="https://twitter.com/"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="icon-colour  home-social-icons"
-                >
-                  <AiOutlineTwitter />
-                </a>
-              </li>
-              <li className="social-icons">
-                <a
-                  href="https://www.linkedin.com/"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="icon-colour  home-social-icons"
-                >
-                  <FaLinkedinIn />
-                </a>
-              </li>
-              <li className="social-icons">
-                <a
-                  href="https://www.instagram.com/"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="icon-colour home-social-icons"
-                >
-                  <AiFillInstagram />
-                </a>
-              </li>
-            </ul>
+            <div className="home-about-social-links">
+              <img src={Logo1} alt="Logo 1" className="logo" />
+              <img src={Logo2} alt="Logo 2" className="logo" />
+              <img src={Logo3} alt="Logo 3" className="logo" />
+            </div>
           </Col>
         </Row>
       </Container>

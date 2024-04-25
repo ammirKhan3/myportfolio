@@ -41,7 +41,7 @@ const imageContainerStyle = {
   display: "flex",
   flexDirection: "column",
   alignItems: "center",
-  gap: "20px",
+  gap: "1px",
 };
 
 const imageStyle = {
@@ -50,7 +50,7 @@ const imageStyle = {
   boxShadow: "0px 0px 10px rgba(0, 0, 0, 0.1)",
   backgroundColor: "#fff",
   margin: "20px",
-  width: "80%", // Adjust width as needed
+  width: "100%", // Adjust width as needed
   maxWidth: "800px", // Set maximum width
 };
 function Project1() {
