@@ -1,5 +1,4 @@
 import React from "react";
-import ImageCarousel from "./Carousel";
 import img6 from "./report-06.png";
 import img7 from "./report-07.png";
 import img8 from "./report-08.png";
@@ -140,7 +139,6 @@ function Projects() {
           <img src={image} alt={`Image ${index + 1}`} style={imageStyle} />
         </div>
       ))}
-      <ImageCarousel></ImageCarousel>
     </div>
   );
 }

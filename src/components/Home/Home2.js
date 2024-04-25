@@ -3,6 +3,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import myImg from "../../Assets/1.png";
 import Tilt from "react-parallax-tilt";
 import Particle from "../Particle";
+import ImageCarousel from "./Carousel";
 import {
   AiFillGithub,
   AiOutlineTwitter,
@@ -55,7 +56,7 @@ function Home2() {
           </Col>
           <Col md={4} className="myAvtar">
             <Tilt>
-              <img src={myImg} className="img-fluid" alt="avatar" />
+              <ImageCarousel />
             </Tilt>
           </Col>
         </Row>

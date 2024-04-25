@@ -744,7 +744,7 @@ button:focus {
   display: none !important;
 }
 .logo {
-  width: 360px;
-  height: 200px;
-  margin-right: 20px; /* Adjust the space between logos */
+  width: 300px;
+  height: 300px;
+  margin-right: 50px; /* Adjust the space between logos */
 }

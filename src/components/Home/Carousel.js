@@ -1,46 +1,28 @@
 import React from "react";
 import { Carousel } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
+import image2 from "./2.jpeg";
+import image3 from "./3.jpeg";
+import image5 from "./5.jpeg";
+import image8 from "./8.jpeg";
 
 function ImageCarousel() {
   return (
     <Carousel>
       <Carousel.Item>
-        <img
-          className="d-block w-100"
-          src="https://via.placeholder.com/800x400"
-          alt="First slide"
-        />
-        <Carousel.Caption>
-          <h3>First slide label</h3>
-          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-        </Carousel.Caption>
+        <img className="d-block w-100" src={image2} alt="Second slide" />
       </Carousel.Item>
       <Carousel.Item>
-        <img
-          className="d-block w-100"
-          src="https://via.placeholder.com/800x400"
-          alt="Second slide"
-        />
-
-        <Carousel.Caption>
-          <h3>Second slide label</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-        </Carousel.Caption>
+        <img className="d-block w-100" src={image3} alt="Third slide" />
+      </Carousel.Item>
+      {/* <Carousel.Item>
+        <img className="d-block w-100" src={image4} alt="Fourth slide" />
+      </Carousel.Item> */}
+      <Carousel.Item>
+        <img className="d-block w-100" src={image5} alt="Fifth slide" />
       </Carousel.Item>
       <Carousel.Item>
-        <img
-          className="d-block w-100"
-          src="https://via.placeholder.com/800x400"
-          alt="Third slide"
-        />
-
-        <Carousel.Caption>
-          <h3>Third slide label</h3>
-          <p>
-            Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-          </p>
-        </Carousel.Caption>
+        <img className="d-block w-100" src={image8} alt="Eighth slide" />
       </Carousel.Item>
     </Carousel>
   );
